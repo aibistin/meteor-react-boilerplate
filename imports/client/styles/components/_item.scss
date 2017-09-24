@@ -1,0 +1,41 @@
+/* Display Stuff */
+
+.item {
+    background: $item-bg;
+    border: 1px solid $item-border;
+    margin-bottom: $space;
+    padding: $space;
+}
+
+.item__message {
+    color: $item-text-color;
+}
+
+.item__status-message {
+    color: $item-text-color;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+/* Some Additions */
+
+.item__text {
+    margin-right: $space; // margin: auto;
+}
+
+/*
+.item__small-text {
+    font-style: italic;
+    font-size: $small-font-size;
+    color: $item-text-color;
+    margin-right: $space;
+}
+*/
+
+.item__stats-info {
+    color: $item-text-color;
+    font-size: $small-font-size;
+    font-style: italic;
+    margin: 0;
+}
