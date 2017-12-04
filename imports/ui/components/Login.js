@@ -9,7 +9,6 @@ export default class Login extends React.Component {
         this.state = {
             error: ''
         };
-
     }
 
     loginSubmit(e) {
@@ -29,15 +28,15 @@ export default class Login extends React.Component {
         return (
             <div className="boxed-view">
               <div className="boxed-view__box">
-              
-                    { this.state.error ? 
+
+                    { this.state.error ?
                     (
-                    <div className="item__status-message">
-                       <p>{this.state.error}</p> 
-                    </div>
+                      <div className="item__status-message">
+                         <p>{this.state.error}</p>
+                      </div>
                     )
-                    : undefined } 
-              
+                    : undefined }
+
                 <h2>Login Page</h2>
                   <form className="boxed-view__form" onSubmit={ this.loginSubmit.bind(this) }>
                     <input type="email" name="email" ref="email" placeholder="Email Address" />

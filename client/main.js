@@ -17,5 +17,5 @@ Meteor.startup(() => {
 
 
 Tracker.autorun(() => {
-   /* Fetch some stuff from the Mongo Collection */
+    /* Fetch some stuff from the Mongo Collection */
 });

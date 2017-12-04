@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 ///
 ////// Local Imports
 ///
@@ -10,10 +9,7 @@ const App = (props) => {
         <div>
           <Header subHeading={props.subHeading} />
         </div>
-        );
+    );
 };
-
-App.PropTypes = {
-}
 
 export default App;
